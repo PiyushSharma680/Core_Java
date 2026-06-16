@@ -1,0 +1,23 @@
+ Comments
+Comments, while being invisible to the program, are lifesavers! 🛟
+
+As developers, sometimes we need to add clarity to code, add context to another programmer, or even temporarily remove code.
+
+## Single-line Comments
+In Java, a single-line comment has two // forward slashes and looks like this:
+
+// Welcome message for users
+System.out.println("Hey there, friend!");
+
+It can also be an inline comment, and look like this:
+
+System.out.println("What is the current version?"); // Version 18.9.2
+
+## Multi-line Comments
+We can also use comments across multiple lines of code:
+
+/*
+  System.out.println("The location can’t be updated.");
+  System.out.println("The location is not up to date.");
+*/
+System.out.println("The location is Chicago, IL");
