@@ -1,0 +1,48 @@
+VARIABLES: 
+In Java, variables are like your personal storage boxes that hold data. 📦
+Your boxes can be given names that hold and store a value (numbers, letters, emojis, etc).
+
+int points = 22;
+System.out.println(points); // Output: 22
+ou can then reference the variable name to access the value stored inside. In our print statement, points is the variable name, and 22 is the value stored inside.
+
+In this example:
+
+int is the type (the variable will hold an integer).
+points is the variable name.
+= is the assignment symbol.
+# Naming
+A common naming convention in Java is camelCase, in which the first word is written in all lowercase letters, and the following words start with an uppercase letter.
+
+int groupOfStudents = 20;
+int numberOfStudents = 10;
+
+Variable names typically start with a letter. You can use these names to access your data later in your program! 👏🏻
+Additionally, variable names must follow a few rules:
+
+They are case-sensitive (Age and age are different variables).
+They cannot contain whitespaces or special characters like !, #, %, etc.
+They must begin with a letter; it can't start with a number.
+
+Instructions
+We're moving! Let's create some variables to keep track of all the items we have in our storage boxes.
+
+Create int variables based on the following information:
+
+The Living Room box has 15 items.
+The Master Bedroom box has 45 items.
+The Bathroom has 10 items.
+Then, use three print statements to show your result!
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        int LivingRoom= 15;
+        int MasterBedroom = 45;
+        int Bathroom = 10;
+        System.out.println("The Living Room box has: "+LivingRoom);
+        System.out.println("The Master Bedroom box has: "+MasterBedroom);
+        System.out.println("The Bathroom has :"+Bathroom);
+    
+    }
+}
