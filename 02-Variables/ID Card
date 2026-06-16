@@ -1,0 +1,72 @@
+07. ID Card
+# Data Types
+In our last exercise, we used the int data type, which means integer. An int is one of the primitive data types.
+
+Here are the eight primitive types:
+
+Integer values: byte, short, int, and long
+Floating point values: float and double
+Boolean values: boolean
+Characters: char
+We'll go over the most common ones out of these!
+
+## integer
+An integer is a whole number with no decimal points, including 0! This can include both negative and positive numbers.
+
+int age = 19;
+int cookies = 0;  // Did we finish a cookie pie? 🥧
+
+## double
+A double is a high-precision decimal number, meaning it can represent numbers with a large number of digits both before and after the decimal point!
+
+It is commonly used for storing values that require fractional precision, such as measurements, and scientific calculations.
+
+double pi = 3.14;
+double megapixels = 34.674423;
+
+## boolean
+Booleans are a data type that stores a true or false value. In Java, a boolean is either true or false, all lowercase.
+
+boolean favColorBlue = true;
+boolean subscribed = false; 
+
+## char
+Java has the character data type to store a single character value, which can only be stored in single quotes.
+
+char theFirstLetter = 'a'; 
+char hashtag = '#'; 
+
+## strings
+A string is a sequence of characters or text. Strings are technically what we call a reference type. They do not store actual data but rather a reference (memory address) to the data. Strings are held in double quotes. But don't worry, for now, we'll use it very similarly to the rest of the data types we've learned about.
+
+String wordleWord = "TAKER";
+String artist = "Sabrina Carpenter";
+
+Instructions
+Let's create an ID card! You'll use different data types to store information about your identification.
+
+Create the following variables:
+
+String name variable
+String state variable
+Character gender variable
+Integer age variable
+Boolean organDonor variable
+Then, output these using print statements, and click run!
+
+You'll see your new ID card! 🪪
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        String name = "Piyush Sharma";
+        String state= "Jammu";
+        char gender = 'M';
+        int age = 21;
+        boolean organDonor = false;
+        System.out.println("Name: "+name);
+        System.out.println("State: "+state);
+        System.out.println("Gender:"+gender);
+        System.out.println("Age: "+age);
+        System.out.println("OrganDOnor: "+organDonor);
+    }
+}
