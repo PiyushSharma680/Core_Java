@@ -1,0 +1,138 @@
+# JVM, JRE, and JDK
+
+## JVM (Java Virtual Machine)
+
+JVM is a virtual machine that executes Java bytecode and provides a runtime environment for Java programs. It is responsible for converting bytecode into machine code and enables Java's platform independence.
+
+### Key Points
+
+* Executes Java bytecode.
+* Provides runtime environment.
+* Converts bytecode to machine code.
+* Makes Java platform-independent.
+
+---
+
+## JRE (Java Runtime Environment)
+
+JRE provides the environment required to run Java applications. It contains the JVM along with the necessary libraries and supporting files.
+
+### Formula
+
+```text
+JRE = JVM + Libraries
+```
+
+### Key Points
+
+* Used to run Java applications.
+* Contains JVM and libraries.
+* Does not contain development tools.
+
+---
+
+## JDK (Java Development Kit)
+
+JDK is a complete toolkit used for developing, compiling, debugging, and running Java applications.
+
+### Formula
+
+```text
+JDK = JRE + Development Tools
+```
+
+### Key Points
+
+* Used for Java development.
+* Contains JRE and JVM.
+* Includes compiler (javac), debugger, and other tools.
+
+---
+
+## Relationship Between JVM, JRE, and JDK
+
+```text
+JDK
+ └── JRE
+      └── JVM
+```
+
+### Memory Trick
+
+```text
+JDK = Develop + Run
+JRE = Run
+JVM = Execute
+```
+
+---
+
+## Difference Between JVM, JRE, and JDK
+
+| JDK                                | JRE                           | JVM                  |
+| ---------------------------------- | ----------------------------- | -------------------- |
+| Used for development and execution | Used for running applications | Executes bytecode    |
+| Contains JRE                       | Contains JVM                  | Part of JRE          |
+| Includes compiler and debugger     | No compiler or debugger       | No development tools |
+
+---
+
+# Platform Independence in Java
+
+Java follows the principle:
+
+**Write Once, Run Anywhere (WORA)**
+
+### Working
+
+```text
+Java Source Code
+        ↓
+      javac
+        ↓
+     Bytecode
+        ↓
+       JVM
+        ↓
+   Machine Code
+```
+
+### How It Works
+
+1. Java source code is written by the programmer.
+2. The Java compiler (javac) converts the source code into bytecode.
+3. JVM reads the bytecode.
+4. JVM converts the bytecode into machine code specific to the operating system.
+5. The same bytecode can run on any system that has a JVM installed.
+
+---
+
+## Interview Questions
+
+### What is JVM?
+
+JVM is a virtual machine that executes Java bytecode and provides platform independence.
+
+### What is JRE?
+
+JRE is the runtime environment required to run Java applications. It contains JVM and supporting libraries.
+
+### What is JDK?
+
+JDK is a software development kit that contains JRE, JVM, compiler, debugger, and other development tools.
+
+### Why is Java Platform Independent?
+
+Java source code is compiled into platform-independent bytecode, which can run on any operating system that has a JVM installed.
+
+---
+
+## Quick Revision
+
+```text
+JDK = JRE + Development Tools
+JRE = JVM + Libraries
+JVM = Executes Bytecode
+
+Write Once, Run Anywhere (WORA)
+```
