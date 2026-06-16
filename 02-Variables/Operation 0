@@ -1,0 +1,48 @@
+Operators:
+Java has the following operators to conduct mathematical operations with code:
+
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+% Modulo (returns the remainder)
+We can use these operators to change variables and conduct math problems! Here is an example of how we use them:
+double result = 0; 
+
+result = 8 + 2;     // result is now 10
+result = 8 - 2;     // result is now 6
+result = 8 * 2;     // result is now 16
+result = 8 / 2;     // result is now 4
+result = 8 % 2;     // result is now 0
+
+
+System.out.println(result); // 0
+A 20% sale on your favorite video game doesn't seem bad, right? Let's see how much we'd be saving using operators:
+
+double originalPrice = 60.0;
+double discount = 20.0;              
+
+// Apply discount
+double finalPrice = originalPrice - (originalPrice * (discount / 100));
+
+System.out.println(finalPrice); // Output: 48 
+
+Just like in math, parentheses are the highest order of operations, and calculations inside of them are performed first.
+
+Instructions
+You're a scientist at a lab mixing chemicals. We have the formula that we need to cause a chemical reaction:
+
+reactionResult= A+B/AB
+​
+What is the result of the reaction? Create chemicalA and chemicalB variables, each holding a random amount of grams.
+
+Calculate and print the result. 🧪
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        int chemicalA= 10;
+        int chemicalB = 20;
+        double result = (chemicalA+chemicalB)/(double)(chemicalA*chemicalB);
+        System.out.println("The result of the reaction is: "+result);
+    }
+}
